@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SessionMaster - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h1 {
+            color: #1a3a52;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
+
+        h2 {
+            color: #1a3a52;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        h3 {
+            color: #0f2942;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #e7f3ff;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .highlight strong {
+            color: #1a3a52;
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+
+        .feature-item strong {
+            color: #1a3a52;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .feature-item p {
+            margin: 0;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .checkmark {
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th {
+            background: #f8f9fa;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #dee2e6;
+            color: #1a3a52;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        footer {
+            text-align: center;
+            color: #999;
+            font-size: 12px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .feature-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔐 SessionMaster Privacy Policy</h1>
+            <p class="subtitle">Your privacy is our top priority</p>
+        </header>
+
+        <section>
+            <h2>1. Introduction</h2>
+            <p>
+                <strong>SessionMaster</strong> ("the Extension") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our Chrome extension.
+            </p>
+            <p>
+                <strong>TL;DR:</strong> We don't collect, store, or transmit any of your personal data. Everything stays on your device, completely private.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. What Data We Collect</h2>
+            
+            <h3>✓ Data We DO NOT Collect:</h3>
+            <ul>
+                <li><strong>Passwords or Credentials</strong> - We never store, see, or access your passwords</li>
+                <li><strong>Personal Information</strong> - No names, emails, addresses, or identification data</li>
+                <li><strong>Authentication Details</strong> - No login credentials or security questions</li>
+                <li><strong>Web Browsing History</strong> - We don't track which sites you visit</li>
+                <li><strong>User Activity Logs</strong> - No tracking of clicks, movements, or interactions</li>
+                <li><strong>Financial Information</strong> - No payment data, credit cards, or transactions</li>
+                <li><strong>Location Data</strong> - We don't collect GPS or location information</li>
+                <li><strong>Health Information</strong> - No health or medical data collection</li>
+            </ul>
+
+            <h3>✓ Data We DO Store (Locally Only):</h3>
+            <p>When you choose to save a session, the extension stores:</p>
+            <ul>
+                <li><strong>Cookies</strong> - HTTP cookies used by the website for your session</li>
+                <li><strong>LocalStorage</strong> - Website storage data you explicitly save</li>
+                <li><strong>SessionStorage</strong> - Temporary session data from the website</li>
+                <li><strong>Session Name</strong> - A custom name you give to the session</li>
+                <li><strong>Domain Name</strong> - Which website the session belongs to</li>
+                <li><strong>Timestamps</strong> - When the session was created and last used</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>⚠️ Important:</strong> All stored data remains ONLY on your device's local storage. We never access, transmit, or store this data on any server.
+            </div>
+        </section>
+
+        <section>
+            <h2>3. How We Use Your Data</h2>
+            <p>The extension uses stored session data exclusively for:</p>
+            <ul>
+                <li>Restoring your saved sessions when you switch between them</li>
+                <li>Displaying session information in the extension popup</li>
+                <li>Comparing sessions side-by-side (comparison feature)</li>
+                <li>Providing smart suggestions based on time and usage patterns</li>
+                <li>Exporting/importing sessions at your request</li>
+                <li>Protecting sessions with an optional master password</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Data Storage & Security</h2>
+
+            <h3>Where Your Data Is Stored:</h3>
+            <ul>
+                <li>✅ Exclusively on your device (local browser storage)</li>
+                <li>✅ NOT on our servers</li>
+                <li>✅ NOT in the cloud</li>
+                <li>✅ NOT transmitted over the internet</li>
+            </ul>
+
+            <h3>Security Measures:</h3>
+            <ul>
+                <li><strong>Local Storage Only</strong> - Data never leaves your device</li>
+                <li><strong>Optional Password Protection</strong> - Set a master password to lock sessions</li>
+                <li><strong>AES-256 Encryption</strong> - Sessions can be encrypted with a master password</li>
+                <li><strong>No Remote Access</strong> - We have no ability to access your data</li>
+                <li><strong>Browser API Protection</strong> - Uses Chrome's secure storage APIs</li>
+            </ul>
+
+            <div class="highlight">
+                <strong>🔒 Encryption:</strong> If you enable password protection, your sessions are encrypted using AES-256-GCM. The password is never stored - only used to encrypt/decrypt your sessions.
+            </div>
+        </section>
+
+        <section>
+            <h2>5. Data Sharing & Third Parties</h2>
+            <p><strong>We do NOT share your data with anyone.</strong></p>
+            <ul>
+                <li>✅ No third-party analytics</li>
+                <li>✅ No data brokers</li>
+                <li>✅ No advertisers</li>
+                <li>✅ No service providers with data access</li>
+                <li>✅ No government data sharing (except as legally required)</li>
+            </ul>
+            <p>
+                The extension is self-contained and doesn't communicate with any external servers, APIs, or services (except when you explicitly use Export/Import features to download your data).
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Permissions Explanation</h2>
+            <p>The extension requests the following permissions, each with a specific purpose:</p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Permission</th>
+                            <th>Purpose</th>
+                            <th>Data Access</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>storage</strong></td>
+                            <td>Save sessions locally on your device</td>
+                            <td>Local storage only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tabs</strong></td>
+                            <td>Detect current website and show relevant sessions</td>
+                            <td>Current tab URL only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cookies</strong></td>
+                            <td>Save and restore website cookies</td>
+                            <td>Only cookies you explicitly save</td>
+                        </tr>
+                        <tr>
+                            <td><strong>activeTab</strong></td>
+                            <td>Interact with the current website's storage</td>
+                            <td>Current tab only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>scripting</strong></td>
+                            <td>Execute session restoration code</td>
+                            <td>Restoration code only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>host:*://*/*</strong></td>
+                            <td>Access cookies on any website</td>
+                            <td>Only what you save</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>7. Your Rights & Controls</h2>
+            <p>You have complete control over your data:</p>
+            <ul>
+                <li><strong>View Your Data</strong> - See exactly what's stored in the extension</li>
+                <li><strong>Export Your Data</strong> - Download all sessions as JSON files</li>
+                <li><strong>Delete Your Data</strong> - Remove individual sessions or all data</li>
+                <li><strong>Import Your Data</strong> - Restore from backup files anytime</li>
+                <li><strong>Uninstall Anytime</strong> - All data is removed when you uninstall</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Data Retention</h2>
+            <ul>
+                <li><strong>Sessions</strong> - Stored indefinitely until you delete them</li>
+                <li><strong>Master Password</strong> - Only used for encryption, never stored</li>
+                <li><strong>Usage Logs</strong> - Last used timestamps are stored with sessions</li>
+                <li><strong>Upon Uninstall</strong> - All extension data is automatically removed</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>9. Children's Privacy</h2>
+            <p>
+                SessionMaster is not intended for use by children under 13. We do not knowingly collect data from children. If you believe a child has used the extension, please contact us to request data deletion.
+            </p>
+        </section>
+
+        <section>
+            <h2>10. Changes to This Policy</h2>
+            <p>
+                We may update this Privacy Policy occasionally. Any changes will be reflected in this document with an updated "Last Modified" date. Continued use of the extension after updates means you accept the new policy.
+            </p>
+        </section>
+
+        <section>
+            <h2>11. Contact Us</h2>
+            <p>If you have questions about this Privacy Policy or our privacy practices:</p>
+            <ul>
+                <li>📧 <strong>Email</strong>: [your-email@example.com]</li>
+                <li>🐙 <strong>GitHub</strong>: [link-to-github-repo]</li>
+                <li>🌐 <strong>Website</strong>: [your-website.com]</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>12. Legal Compliance</h2>
+            
+            <h3>GDPR Compliance (EU Users)</h3>
+            <ul>
+                <li>✅ No personal data collection or processing</li>
+                <li>✅ No data transfers outside EU</li>
+                <li>✅ You have full control over your data</li>
+                <li>✅ Right to access, delete, and export your data</li>
+            </ul>
+
+            <h3>CCPA Compliance (California Users)</h3>
+            <ul>
+                <li>✅ No personal information is sold</li>
+                <li>✅ No personal information is shared</li>
+                <li>✅ You can delete your data anytime</li>
+                <li>✅ You can export your data anytime</li>
+            </ul>
+
+            <h3>Privacy Shield & Standard Contractual Clauses</h3>
+            <p>
+                Not applicable - all data is stored locally on your device with no international transfers.
+            </p>
+        </section>
+
+        <section>
+            <h2>13. Summary of Privacy Commitments</h2>
+            
+            <div class="feature-list">
+                <div class="feature-item">
+                    <strong>🔒 Local Only</strong>
+                    <p>All data stays on your device. Zero cloud storage.</p>
+                </div>
+                <div class="feature-item">
+                    <strong>🚫 No Collection</strong>
+                    <p>We don't collect personal info, browsing history, or activity.</p>
+                </div>
+                <div class="feature-item">
+                    <strong>✋ No Sharing</strong>
+                    <p>Your data is never sold, shared, or transmitted to anyone.</p>
+                </div>
+                <div class="feature-item">
+                    <strong>🔐 Encrypted</strong>
+                    <p>Optional password protection with AES-256 encryption.</p>
+                </div>
+                <div class="feature-item">
+                    <strong>👤 Your Control</strong>
+                    <p>View, export, or delete your data anytime.</p>
+                </div>
+                <div class="feature-item">
+                    <strong>📊 No Analytics</strong>
+                    <p>No tracking pixels, analytics, or monitoring tools.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="highlight">
+            <h3>🎯 Bottom Line:</h3>
+            <p>
+                <strong>SessionMaster respects your privacy completely.</strong> We built this extension to help you manage sessions without compromising your personal data. Everything is stored locally, nothing is transmitted, and you maintain complete control. That's our commitment to you.
+            </p>
+        </div>
+
+        <div class="last-updated">
+            <p><strong>Last Updated:</strong> December 24, 2025</p>
+            <p><strong>Effective Date:</strong> December 24, 2025</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 SessionMaster. All rights reserved. | Privacy Policy v1.0</p>
+        </footer>
+    </div>
+</body>
+</html>
